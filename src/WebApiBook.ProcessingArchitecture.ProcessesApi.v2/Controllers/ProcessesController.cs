@@ -25,5 +25,4 @@ namespace WebApiBook.ProcessingArchitecture.ProcessesApi.v2.Controllers
             };
         }
     }
-    
 }

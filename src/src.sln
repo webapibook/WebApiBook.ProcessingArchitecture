@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBook.ProcessingArchit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiBook.ProcessingArchitecture.ProcessesApi.v2", "WebApiBook.ProcessingArchitecture.ProcessesApi.v2\WebApiBook.ProcessingArchitecture.ProcessesApi.v2.csproj", "{FE88F9BB-496B-40E7-AE4E-6C8DF9252091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagrams", "Diagrams\Diagrams.csproj", "{2C0505D2-1B9C-4487-9E12-E3EBFEA30902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FE88F9BB-496B-40E7-AE4E-6C8DF9252091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE88F9BB-496B-40E7-AE4E-6C8DF9252091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE88F9BB-496B-40E7-AE4E-6C8DF9252091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0505D2-1B9C-4487-9E12-E3EBFEA30902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0505D2-1B9C-4487-9E12-E3EBFEA30902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0505D2-1B9C-4487-9E12-E3EBFEA30902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0505D2-1B9C-4487-9E12-E3EBFEA30902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
