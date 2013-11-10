@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Web.Http.ApiController">
+    <Position X="3" Y="3" Width="2.25" />
+    <Members>
+      <Method Name="BadRequest" Hidden="true" />
+      <Method Name="Conflict" Hidden="true" />
+      <Method Name="Content" Hidden="true" />
+      <Method Name="Created" Hidden="true" />
+      <Method Name="CreatedAtRoute" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="InternalServerError" Hidden="true" />
+      <Method Name="Json" Hidden="true" />
+      <Method Name="NotFound" Hidden="true" />
+      <Method Name="Ok" Hidden="true" />
+      <Method Name="Redirect" Hidden="true" />
+      <Method Name="RedirectToRoute" Hidden="true" />
+      <Method Name="ResponseMessage" Hidden="true" />
+      <Method Name="StatusCode" Hidden="true" />
+      <Method Name="Unauthorized" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Http.Dispatcher.HttpControllerDispatcher">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Diagrams.ConcreteController">
+    <Position X="5.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ConcreteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.Web.Http.Controllers.IHttpController">
+    <Position X="3" Y="1.25" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
