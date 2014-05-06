@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="System.Net.Http.HttpRequestMessage" Collapsed="true">
+    <Position X="1" Y="5.25" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.HttpResponseMessage" Collapsed="true">
+    <Position X="4" Y="5.25" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.HttpMessageHandler">
+    <Position X="0.5" Y="3.5" Width="6" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpMessageHandler" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Net.Http.DelegatingHandler">
+    <Position X="0.5" Y="1.75" Width="6" />
+    <Members>
+      <Method Name="DelegatingHandler" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="SendAsync" Hidden="true" />
+    </Members>
+    <AssociationLine Name="InnerHandler" Type="System.Net.Http.HttpMessageHandler" FixedToPoint="true">
+      <Path>
+        <Point X="3.812" Y="2.747" />
+        <Point X="3.812" Y="3.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.957" Y="0.335" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="InnerHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Net.Http.MessageProcessingHandler" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="6" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
